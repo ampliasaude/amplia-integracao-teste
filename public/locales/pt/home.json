@@ -1,0 +1,68 @@
+{
+  "intro": "Vamos juntos investigar as relações entre a poluição ambiental e a saúde materna e neonatal no Brasil",
+  "cta": "Acesse a ferramenta Trilhas Exploratórias",
+  "video": "https://www.youtube.com/watch?v=s8IJLAEox8M",
+  "storiesTitle": "Conheça algumas histórias contidas nos dados",
+  "faq": {
+    "title": "Perguntas Frequentes",
+    "intro": "Nós preparamos uma seção de Perguntas e Respostas que podem lhe ajudar a esclarecer suas dúvidas. Caso não encontre respostas aos seus questionamentos pode enviar e-mail com sua pergunta para <a href=\"mailto:ampliasaude@gmail.com\">ampliasaude@gmail.com</a>",
+    "docs": [
+      {
+        "q": "Qual o diferencial da ferramenta Trilhas Exploratórias?",
+        "a": "A crise climática é um dos desafios mais importantes em escala e urgência que enfrentamos na contemporaneidade e demanda da sociedade a readequação de diversos aspectos dos nossos modos de vida. Nesse contexto, é de especial importância investigar como as circunstâncias ambientais podem afetar a saúde de gerações futuras. Uma linha de questionamento cada vez mais relevante é a relação entre a poluição atmosférica e a saúde de mulheres grávidas e crianças recém-nascidas. Trazidas à luz em um ambiente de alta concentração de poluentes, os fetos podem estar sujeitos a dificuldades de desenvolvimento ainda não plenamente compreendidas, apesar de serem tema de investigação documentadas na literatura acadêmica. Nossa ferramenta permite uma análise visual exploração visual de múltiplos indicadores de saúde e sociodemográficos em paralelo com dados de Material Particulado MP2.5 para 5.565 municípios brasileiros cobrindo um período de sete anos (2012-2019)."
+      },
+      {
+        "q": "Há municípios não incorporados na ferramenta?  ",
+        "a": "Sim. Há cinco municípios criados após o Censo de 2010 e que ainda não possuem Índice de Desenvolvimento Humano (IDH) e, portanto, não foram incorporados na ferramenta."
+      },
+      {
+        "q": "Como foram selecionados os dados das gestações?",
+        "a": "Devido ao desafio de manejar grande quantidade de dados, as restrições dadas pela utilização de dados secundários, agregados e não vinculados, e a tentativa de homogeneizar dados heterogêneos para permitir comparações, precisamos fazer a escolha de considerar apenas as gestações únicas. Gestações de gêmeos ou trigêmeos não foram incluídas. "
+      },
+      {
+        "q": "Quais bancos de dados foram utilizados?",
+        "a": "Os bancos utilizados foram Sistema de Informação de Nascidos Vivos (SINASC), Sistema de Informação sobre Mortalidade (SIM), Sistema de Informações Ambientais Integrado à Saúde (SISAM) e Instituto Brasileiro de Geografia e Estatística (IBGE)."
+      },
+      {
+        "q": "Por que as Trilhas utilizam dados agregados por semana, enquanto no Mapa eles foram agregados por ano?",
+        "a": "Dados de saúde materno-neonatal e dados de poluição possuem granularidades temporais muito diferentes. Enquanto os primeiros são normalmente organizados e analisados por mês ou ano, os segundos são medidos e analisados geralmente por hora ou dia. Levando isso em consideração, buscamos acomodar dois níveis de agregação bastante distintos. O Mapa visa selecionar e comparar municípios usando indicadores agregados por ano, com pouca ênfase na variação temporal. Por outro lado, as trilhas se prestam uma análise temporal desses indicadores, sendo que a agregação por semana permite maior fluidez no carregamento dos dados."
+      },
+      {
+        "q": "Algumas variáveis utilizadas estão como “não disponíveis” para meu município. Qual o motivo?",
+        "a": "Utilizamos os dados secundários disponíveis nas bases selecionadas (SINASC, SIM e SISAM), depurados e transformados pelo PCDaS/ICICT, Fiocruz, para a construção do Amplia Saúde. A ausência de dados ou erro em seus registros significa inconsistência ou dados faltantes nas bases. "
+      },
+      {
+        "q": "Por que os dados do Amplia Saúde só estão disponíveis para o período entre 2012 e 2019?",
+        "a": "A ferramenta Trilhas Exploratórias foi criada com dados das bases SINASC, SIM e SISAM carregadas e transformadas pelo PCDaS/ICICT, Fiocruz. Nossa metodologia é dependente da variável de saúde “Adequação à idade gestacional”, informação que só foi adicionada na declaração de Nascidos Vivos a partir de 2012 (vide Departamento de Análise da Situação de Saúde, Secretaria de Vigilância em Saúde, Ministério da Saúde. Manual de instruções para o preenchimento da Declaração de Nascido Vivo. Brasília: Ministério da Saúde; 2011. Série A Normas e Manuais Técnicos). Por sua vez, os dados de MP2.5 presentes no SISAM estão disponíveis até 2019."
+      },
+      {
+        "q": "Com quais municípios eu posso comparar os dados do meu município de interesse?",
+        "a": "As Trilhas Exploratórias permitem comparar livremente até quatro municípios brasileiros simultaneamente. No entanto, durante essa comparação, é importante levar em consideração as características das localidades. Por exemplo, caso seu município tenha um pequeno número de nascimentos por ano, talvez seja interessante compará-lo com outros municípios com porte populacional semelhante, ou ainda com outros municípios de seu Estado ou Região. Para auxiliar na seleção de municípios, criamos o modo de visualização Mapa que, além de facilitar a identificação de municípios espacialmente próximos e analisar seus indicadores, permite filtrar localidades por determinantes sociodemográficos e de saúde."
+      },
+      {
+        "q": "Por que quando comparo um município pequeno com um grande, o gráfico do primeiro fica com “picos” e “vales”?",
+        "a": "Um município com um pequeno número de nascimentos por semana pode ter grande variabilidade percentual. Por exemplo, quando temos uma semana com apenas um nascimento e este é saudável, o percentual é de 100%, mas se esse nascimento é de baixo peso, o percentual cai para 0%."
+      },
+      {
+        "q": "Por que no modo de visualização Trilhas os dados de saúde são referentes à data de concepção e não à data de nascimento?",
+        "a": "Como um dos objetivos da ferramenta é explorar possíveis efeitos de poluição sobre gestações, é importante comparar o efeito acumulado de exposição sobre fetos com maturidade semelhante. Em particular, dados apontam que esse efeito é mais crítico no período entre a 22a e a 38a semana de gestação, o que chamamos de janela de suscetibilidade. Se as gestações fossem agregadas pela data de nascimento, bebês nascidos após gestações de duração diferente não poderiam ser comparados. "
+      },
+      {
+        "q": "Como foi feita a agregação dos dados por data de concepção?",
+        "a": "As datas de concepção são estimadas subtraindo-se a duração estimada da gestação da data do nascimento."
+      },
+      {
+        "q": "Nas trilhas, qual o comportamento esperado do filtro principal e do filtro de comparação?",
+        "a": "O filtro principal, localizado logo abaixo do seletor de municípios, opera de forma global nos gráficos de todas as trilhas e seu resultado é representado por uma linha contínua. O filtro de comparação, localizado dentro das trilhas, opera de forma local nos gráficos presentes dentro da trilha específica. Seu resultado é representado por uma linha tracejada. Os filtros de comparação, quando o menu de comparação é inicialmente acionado, são configurados de forma idêntica aos dos filtros globais. Entretanto, uma vez que o menu de comparação é exibido, os filtros globais e os de comparação funcionam de forma independente."
+      },
+      {
+        "q": "Onde eu encontro mais informações sobre a metodologia utilizada no Amplia Saúde?",
+        "a": "A metodologia de seleção, processamento e transformação dos dados utilizados na ferramenta Amplia Saúde foi resultado de um processo sistemático liderado por cientistas da computação e especialistas em saúde materna e neonatal. O processo está detalhado na seção de Metodologia."
+      },
+      {
+        "q": "Como posso citar o projeto Amplia Saúde?",
+        "a": "KOSMINSKY, D.; ESPERANÇA, C.; ILLARRAMENDI, X.; GIANNELLA, J. R.;  MAURO, R.; GOMES JUNIOR, S. C.; BARCELLOS, L. Amplia Saúde: Observatório do período perinatal. 2022. Disponível em: <https://ampliasaude.github.io/trilhas5.html>."
+      }
+    ]
+  }
+}

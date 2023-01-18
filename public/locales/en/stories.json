@@ -1,0 +1,197 @@
+{
+  "otherStories": "Other stories:",
+  "stories": [
+    {
+      "file": "/assets/videos/Story1_en.mp4",
+      "title": "Introduction",
+      "image": "CapaStory1-en.png",
+      "slug": "/historias/1-apresentacao",
+      "steps": [
+        {
+          "content": "Most singleton births in Brazil evolve <strong>without complications</strong>",
+          "obs": ""
+        },
+        {
+          "content": "However, a considerable amount of pregnancies have negative outcomes, such as asphyxia or even the <strong>death of the newborn or mother</strong>",
+          "obs": ""
+        },
+        {
+          "content": "Only now we are beginning to understand the potential harmful effects of <strong>air pollution</strong> on the health of newborns, and of pregnant and puerperal women",
+          "obs": ""
+        },
+        {
+          "content": "In Brazil, in the last five years, 108 thousand newborns died before reaching 27 days of life",
+          "obs": "Source: Sistema de informações sobre Mortalidade, DataSUS (2022)\n* Up until november 2022"
+        },
+        {
+          "content": "The SDG 3.2 target is that all countries reduce the newborn mortality rate to at least 12 per 1,000 live births",
+          "obs": "Source: UN SDGs"
+        },
+        {
+          "content": "Brazil has been successful in this indicator. The Brazilian target is lower than the global one: 5 newborn deaths per 1,000 live births",
+          "obs": "Source: <a href=\"https://www.ipea.gov.br/ods/ods3.html\" target=\"_blank\" noopener noreferrer>Ipea</a> and UN SDGs"
+        },
+        {
+          "content": "However, such success doesn’t seem to be equally distributed throughout Brazil",
+          "obs": "Source: Sistema de informações sobre Mortalidade, DataSUS"
+        },
+        {
+          "content": "And in addition to the mortality of the newborn, the fetus and the mother (pregnant or post-partum), there are other information that enhance the picture of the perinatal period in Brazil",
+          "obs": ""
+        },
+        {
+          "content": "It is known that environmental pollution has a detrimental effect on health. But how can it affect those indicators? How much effect could air pollution during winter have over them? And to what extent?",
+          "obs": ""
+        },
+        {
+          "content": "Let’s assemble this puzzle together by analyzing these and other indicators on Amplia Saúde tool\n\n<a href=\"/ferramenta\" target=\"_blank\" noopener noreferrer>USE THE DASHBOARD</a>",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "file": "/assets/videos/Story2_en.mp4",
+      "title": "Mesmo ambiente, cenários diferentes",
+      "image": "CapaStory2-en.png",
+      "slug": "/historias/2-mesmo-ambiente-cenarios-diferentes",
+      "steps": [
+        {
+          "content": "What makes a city have better maternal and neonatal health indicators compared to neighboring cities?",
+          "obs": ""
+        },
+        {
+          "content": "Let us consider the examples of Santo André, São Bernardo and São Caetano, three neighboring cities in the Greater São Paulo region.",
+          "obs": ""
+        },
+        {
+          "content": "The three municipalities have similar geographic and urban conditions.",
+          "obs": ""
+        },
+        {
+          "content": "Air pollution is one of these conditions: The three had high annual mean concentration of fine particulate matter (PM2.5) in 2019, around 51.1 µg/m³.",
+          "obs": ""
+        },
+        {
+          "content": "This level of pollution is more than ten times higher than what is considered “no harmful pollution” according to the World Health Organization (WHO) air quality guidelines.",
+          "obs": "Source: World Health Organization. Air Quality Guidelines - Update 2021. Copenhagen, Denmark: WHO Regional Office for Europe (2021)."
+        },
+        {
+          "content": "Prolonged exposure to unhealthy air is associated with worse conditions in people with vascular and respiratory diseases. Would it have a greater effect on pregnant women with an underlying condition?",
+          "obs": ""
+        },
+        {
+          "content": "On the other hand, if we look at birth weight, we see that the three cities show quite different variations.",
+          "obs": ""
+        },
+        {
+          "content": "The same goes for babies born small vis-à-vis the gestational age. Is it possible that environmental pollution has some effect on this variability?",
+          "obs": ""
+        },
+        {
+          "content": "We are still trying to understand how and in what ways these indicators relate -- and these discoveries are critical to the health of future and current generations.",
+          "obs": ""
+        },
+        {
+          "content": "Let’s assemble this puzzle together by analyzing these and other indicators on Amplia Saúde tool\n\n<a href=\"/ferramenta\" target=\"_blank\" noopener noreferrer>USE THE DASHBOARD</a>",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "file": "/assets/videos/Story3_en.mp4",
+      "title": "Dois extremos",
+      "image": "CapaStory3-en.png",
+      "slug": "/historias/3-dois-extremos",
+      "steps": [
+        {
+          "content": "We know that neonatal health is determined by many factors, and it is hard to determine the exact influence of each.",
+          "obs": ""
+        },
+        {
+          "content": "However, the stories of some cities cause a stir and make us think about what could explain specific data behaviors.",
+          "obs": ""
+        },
+        {
+          "content": "For example: Engenheiro Paulo de Frontin (RJ) and Turvo (SC) are similar cities in many ways.",
+          "obs": ""
+        },
+        {
+          "content": "Both have almost the same population, the same MHDI* level and a similar birth rate.",
+          "obs": "*Municipal Human Development Index"
+        },
+        {
+          "content": "However, they differ in terms of air pollution: the Rio de Janeiro city is about four times more polluted than the Santa Catarina one.",
+          "obs": "Source: <a href=\"https://www.ipea.gov.br/ods/ods3.html\" target=\"_blank\" noopener noreferrer>IPEA</a> and the United Nations Sustainable Development Goals"
+        },
+        {
+          "content": "When we look at neonatal health, the picture is also quite different. On average, the newborns of Engenheiro Paulo de Frontin weigh less than those of Turvo.",
+          "obs": ""
+        },
+        {
+          "content": "This characteristic varies considerably over time for one city but not for the other.",
+          "obs": ""
+        },
+        {
+          "content": "Factors such as differences between public health policies and the sociodemographic profile may be influencing this indicator.",
+          "obs": ""
+        },
+        {
+          "content": "While the effects of pollution on newborns appear to impact gestation length and lower birth weight, this still needs to be further investigated.",
+          "obs": ""
+        },
+        {
+          "content": "Let‘s assemble this puzzle and explore these and other indicators in the Amplia Saúde tool.\n\n<a href=\"/ferramenta\" target=\"_blank\" noopener noreferrer>USE THE DASHBOARD</a>",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "file": "/assets/videos/Story4_en.mp4",
+      "title": "Gestational age",
+      "image": "CapaStory4-en.png",
+      "slug": "/historias/4-idades-gestacionais",
+      "steps": [
+        {
+          "content": "There are several parameters to monitor the health of a pregnancy and fetal growth. One of the most important is the adequacy of birth weight to gestational age.",
+          "obs": ""
+        },
+        {
+          "content": "Gestational age is calculated considering the time elapsed from the date of the last menstrual period (LMP), the date that precedes conception, as it occurs approximately 2 weeks before ovulation and fertilization.",
+          "obs": ""
+        },
+        {
+          "content": "It does not represent the actual embryological age of the fetus but is a standard among experts for understanding fetal maturation. It also serves to calculate the probable date of delivery.",
+          "obs": ""
+        },
+        {
+          "content": "The child's birth weight can be classified per its suitability for that age, as an indication of its health.",
+          "obs": ""
+        },
+        {
+          "content": "It can be considered small, adequate, or large for its gestational age. This classification can be associated with other indicators.",
+          "obs": ""
+        },
+        {
+          "content": "The city of Amajari, in Roraima, for example, has one of the highest rates of births with lower weight than expected for their gestational age in Brazil: 18.41%.",
+          "obs": ""
+        },
+        {
+          "content": "Scientific studies show that exposure of the mother during pregnancy to air pollution affects the duration of pregnancy and birth weight and could, therefore, affect the adequacy of weight for gestational age.",
+          "obs": "Source: JAMA Network Open. 2020;3(6):e208243. doi:10.1001/jamanetworkopen.2020.8243"
+        },
+        {
+          "content": "Petrópolis, in Rio de Janeiro, also has the highest rates of lower-than-expected-for-gestational-age births in Brazil, but much higher PM 2.5 levels.",
+          "obs": ""
+        },
+        {
+          "content": "However, the relationships between these data are still inconclusive and should be further investigated.",
+          "obs": ""
+        },
+        {
+          "content": "Let‘s assemble this puzzle and explore these and other indicators in the Amplia Saúde tool.\n\n<a href=\"/ferramenta\" target=\"_blank\" noopener noreferrer>USE THE DASHBOARD</a>",
+          "obs": ""
+        }
+      ]
+    }
+  ]
+}

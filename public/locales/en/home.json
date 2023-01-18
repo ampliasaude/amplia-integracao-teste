@@ -1,0 +1,81 @@
+{
+  "intro": "Let's investigate the relationship between environmental pollution and maternal and newborn health in Brazil",
+  "cta": "Access the tool",
+  "video": "https://www.youtube.com/watch?v=s8IJLAEox8M",
+  "storiesTitle": "Discover some of the stories contained in the data",
+  "faq": {
+    "title": "FAQ",
+    "intro": "We have prepared an Questions and Answers section to help clarify your doubts. If you are still looking for answers to your questions, you can send an e-mail with your question to <a href=\"mailto:ampliasaude@gmail.com\">ampliasaude@gmail.com</a>",
+    "docs": [
+      {
+        "q": "What makes the Exploratory Tracklogs tool different?",
+        "a": "The climate crisis is one of the most critical challenges in terms of scale and urgency faced in contemporary times and demands from society to readjust various aspects of our ways of life. In this context, we should especially investigate how environmental circumstances can affect the health of future generations. An increasingly relevant line of questioning is the relationship between air pollution and the health of pregnant women and newborn children. Brought to light in an environment with a high concentration of pollutants, fetuses may be subject to development difficulties not yet fully understood, despite being the subject of investigation documented in the academic literature. Our tool enables visual exploration of multiple health and sociodemographic indicators in parallel with PM2.5 Particulate Matter data for 5,565 Brazilian municipalities covering seven years (2012-2019). "
+      },
+
+      {
+        "q": "Are there municipalities not included in the tool?",
+        "a": "Yes. Five municipalities created after the 2010 Census still need a Human Development Index (HDI) and, therefore, were not included in the tool."
+      },
+
+      {
+        "q": "How were pregnancy data selected?",
+        "a": "Due to the challenge of handling large amounts of data, the restrictions given by using secondary, aggregated, and unlinked data, and the attempt to standardize heterogeneous data to allow comparisons, we had to consider only singleton pregnancies. Pregnancies with twins or triplets were not included."
+      },
+
+      {
+        "q": "Which databases were used?",
+        "a": "The databases used were the Live Birth Information System (SINASC), the Mortality Information System (SIM), the Integrated Health Environmental Information System (SISAM), and the Brazilian Institute of Geography and Statistics (IBGE)."
+      },
+
+      {
+        "q": "Why do Tracklogs use data aggregated by week, while they were aggregated by year in the Map?",
+        "a": "Maternal-neonatal health data and pollution data have quite different temporal granularities. While the former are usually organized and analyzed by month or year, the latter are usually measured and analyzed by hour or day. Considering this, we aimed to accommodate two quite different aggregation levels. The Map aims to select and compare municipalities using indicators aggregated by year, with little emphasis on temporal variation. On the other hand, the tracklogs serve as a temporal analysis of these indicators, and the aggregation by week allows for greater fluidity in data loading."
+      },
+
+      {
+        "q": "Why are some variables adopted “unavailable” for my municipality?",
+        "a": "We used the secondary data available in the selected databases (SINASC, SIM, and SISAM), cleansed and transformed by the PCDaS/ICICT, FIOCRUZ, for the construction of Amplia Saúde. The lack of data or errors in their records means inconsistency or missing data in the databases."
+      },
+
+      {
+        "q": "Why are Amplia Saúde data only available from 2012 to 2019?",
+        "a": "The Exploratory Tracklogs tool was created with data from the SINASC, SIM, and SISAM databases loaded and transformed by PCDaS/ICICT, Fiocruz. Our methodology depends on the health variable “Adequacy to gestational age”, information that was only added to the declaration of live births from 2012 onwards (see Departamento de Análise da Situação de Saúde, Secretaria de Vigilância em Saúde, Ministério da Saúde. Manual de instruções para o preenchimento da Declaração de Nascido Vivo. Brasília: Ministério da Saúde; 2011. Série A Normas e Manuais Técnicos). In turn, the MP2.5 data in SISAM are available until 2019."
+      },
+
+      {
+        "q": "With which municipalities can I compare data from my municipality of interest?",
+        "a": "Exploratory Tracklogs allow you to compare up to four Brazilian municipalities simultaneously freely. However, during this comparison, one should consider the characteristics of the locations. For example, suppose your municipality has a small number of births per year. In that case, it might be interesting to compare it with other municipalities with similar population sizes or even with other municipalities in your State or Region. We created the Map view mode to select municipalities, which facilitates the identification of spatially close municipalities, analyzes their indicators, and allows filtering locations by sociodemographic and health determinants."
+      },
+
+      {
+        "q": "When I compare a small municipality with a large one, why does the graph of the former has “peaks” and “valleys”?",
+        "a": "A municipality with a small number of births per week may have large percentage variability. For example, when we have a week with only one birth, and this is healthy, the percentage is 100%, but drops to 0% if that birth is low weight."
+      },
+
+      {
+        "q": "Why do the health data in the Tracklogs view mode refer to the conception date and not the birth date?",
+        "a": "As one of the tool’s objectives is to explore the possible effects of pollution on pregnancies, it is essential to compare the cumulative effect of exposure on fetuses of similar maturity. In particular, data indicate that this effect is overly critical from the 22nd to 38th gestation week, which we call the window of susceptibility. If pregnancies were aggregated by date of birth, babies born after pregnancies of different lengths could not be compared."
+      },
+
+      {
+        "q": "How was the data aggregated by conception date?",
+        "a": "Conception dates are estimated by subtracting the estimated length of pregnancy from the date of birth."
+      },
+
+      {
+        "q": "What is the expected behavior of the primary filter and the comparison filter on tracklogs?",
+        "a": "The primary filter, located just below the selector of municipalities, operates globally on the graphs of all tracklogs, and its result is represented by a continuous line. The comparison filter, located within the tracklogs, operates locally on the graphics within the specific tracklog. Its result is represented by a dotted line. When the comparison menu is activated, the comparison filters are configured identically to the global filters. However, once the comparison menu is displayed, global and comparison filters work independently."
+      },
+
+      {
+        "q": "Where can I find more information about the methodology used in Amplia Saúde?",
+        "a": "The methodology for selecting, processing, and transforming the data used in the Amplia Saúde tool stems from a systematic process led by computer scientists and specialists in maternal and neonatal health. The process is detailed in the Methods."
+      },
+
+      {
+        "q": "How can I cite the Amplia Saúde project?",
+        "a": "KOSMINSKY, D.; ESPERANÇA, C.; ILLARRAMENDI, X.; GIANNELLA, J. R.; MAURO, R.; GOMES JUNIOR, S. C.; BARCELLOS, L. Amplia Saúde: Observatório do período perinatal. 2022. Disponível em: <https://ampliasaude.github.io/trilhas5.html>. "
+      }
+    ]
+  }
+}

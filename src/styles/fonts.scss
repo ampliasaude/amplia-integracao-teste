@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+
+@font-face {
+  font-family: "Century Gothic Pro";
+  src: url("./fonts/CenturyGothicPro-BoldItalic.woff2") format("woff2"),
+    url("./fonts/CenturyGothicPro-BoldItalic.woff") format("woff");
+  font-weight: bold;
+  font-style: italic;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Century Gothic Pro";
+  src: url("./fonts/CenturyGothicPro-Bold.woff2") format("woff2"),
+    url("./fonts/CenturyGothicPro-Bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Century Gothic Pro";
+  src: url("./fonts/CenturyGothicPro.woff2") format("woff2"),
+    url("./fonts/CenturyGothicPro.woff") format("woff");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Century Gothic Pro";
+  src: url("./fonts/CenturyGothicPro-Italic.woff2") format("woff2"),
+    url("./fonts/CenturyGothicPro-Italic.woff") format("woff");
+  font-weight: 500;
+  font-style: italic;
+  font-display: swap;
+}

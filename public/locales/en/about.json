@@ -1,0 +1,86 @@
+{
+  "title": "About",
+  "about": "This project investigates the relationship between atmospheric pollution and health to offer an innovative alternative for visual analysis of maternal and neonatal health data. Large volumes of secondary data (Big Data) obtained from the Live Births Information System (SINASC) and the Mortality Information System (SIM) were made available and visually organized in parallel with data obtained from the Integrated Health Environmental Information System (SISAM). The tool allows to associate dozens of health indicators (low birth weight, gestational age adequacy, among others) with data of fine particulate matter (PM<sub>2.5</sub>) concentration, particles of up to 2.5 micrometers, the predominant component of atmospheric pollution.\n\nWe aimed to reinforce the importance of engaging and attractive scientific dissemination that reverberates the scientific knowledge produced in academia and expands access to scientific data and findings. Our expertise in data visualization, digital infographics, and information design culminated in developing this website with two main navigation layers: the Tool and the Stories.\n\nThe Tool provides information in an exploratory, on-demand, and detailed manner. It is a layer aimed at those looking to perform specific queries, formulate or test hypotheses, and make data-driven decisions. On the other hand, Stories offer information faster and simpler to consume through web stories, a dynamic and streamlined format that tells stories about the data contained in the project. It is a layer that serves a broader audience that wants to be informed without the need of exploring the tool.",
+  "subtitle": "Performance and funding",
+  "performance": "The project “Extended Health: Observatory of the pre- and perinatal care periods” is an inter-institutional initiative gathering a multidisciplinary team of researchers from <a noopener noreferrer target=\"_blank\" href=\"https://portal.fiocruz.br/\">Fiocruz</a>, <a noopener noreferrer target=\"_blank\" href=\"https://labvis.eba.ufrj.br/\">LabVis-UFRJ</a> (Laboratory of Visuality and Visualization) from the School of Fine Arts of the Federal University of Rio de Janeiro (EBA/ UFRJ), and the Computer Graphics Laboratory at COPPE/UFRJ.\n\nThe project is supported by the Program <a noopener noreferrer target=\"_blank\" href=\"https://gcgh.grandchallenges.org/challenge/grand-challenges-explorations-brazil-data-science-approaches-improve-maternal-and-child-0\">“Grand Challenges Explorations – Brazil: Data Science to Improve Maternal and Child Health, Women's Health and Child Health in Brazil”</a> funded by the <a noopener noreferrer target=\"_blank\" href=\"https://www.gatesfoundation.org/\">Bill & Melinda Gates Foundation</a>, CNPq, and FAPERJ and supported by the <a noopener noreferrer target=\"_blank\" href=\"https://www.gov.br/saude/pt-br\">Brazilian Ministry of Health</a>.",
+  "teamTitle": "Team",
+  "team": [
+    {
+      "name": "Doris Kosminsky",
+      "role": "Principal investigator",
+      "description": "Project coordination and data visualization design lead",
+      "link": "http://lattes.cnpq.br/4801768397535572",
+      "img": "/assets/team/doris.png"
+    },
+    {
+      "name": "Ximena Illarramendi",
+      "role": "Principal investigator",
+      "description": "Scientific coordinator (health sciences area)",
+      "link": "http://lattes.cnpq.br/5367049385539023",
+      "img": "/assets/team/ximena.png"
+    },
+    {
+      "name": "Claudio Esperança",
+      "role": "Principal investigator",
+      "description": "Development coordinator",
+      "link": "https://cesperanca.org",
+      "img": "/assets/team/claudio.png"
+    },
+    {
+      "name": "Júlia Giannella",
+      "role": "Researcher",
+      "description": "Designer and scientific dissemination coordinator",
+      "link": "https://www.juliagiannella.com.br/",
+      "img": "/assets/team/julia.png"
+    },
+    {
+      "name": "Renato Mauro",
+      "role": "Researcher",
+      "description": "Developer",
+      "link": "http://lattes.cnpq.br/5669803166914813",
+      "img": "/assets/team/renato.png"
+    },
+    {
+      "name": "Lucas Barcellos Oliveira",
+      "role": "Researcher",
+      "description": "Developer",
+      "link": "https://br.linkedin.com/in/lucasbarcellosoliveira",
+      "img": "/assets/team/lucas.png"
+    },
+    {
+      "name": "Saint Clair Gomes Junior",
+      "role": "Researcher",
+      "description": "Scientific consultant (neonatal health and public health)",
+      "link": "http://lattes.cnpq.br/3477850932376112",
+      "img": "/assets/team/saint-clair.png"
+    },
+    {
+      "name": "Rodolfo Almeida",
+      "role": "Graduate student",
+      "description": "Visual journalist",
+      "link": "https://rodolfoalmeida.info/",
+      "img": "/assets/team/rodolfo.png"
+    },
+    {
+      "name": "Igor Falconieri",
+      "role": "Graduate student",
+      "description": "Interaction design assistant",
+      "link": "https://www.linkedin.com/in/igorfalconieri",
+      "img": "/assets/team/igor.png"
+    },
+    {
+      "name": "Valentina Nakayama",
+      "role": "Undergraduate student",
+      "description": "Assistant developer",
+      "link": "https://www.linkedin.com/in/vnakayama/",
+      "img": "/assets/team/valentina.png"
+    },
+    {
+      "name": "Annette Hester",
+      "role": "Collaborator",
+      "description": "Project management",
+      "link": "https://thehesterview.com/ ",
+      "img": "/assets/team/annette.png"
+    }
+  ]
+}

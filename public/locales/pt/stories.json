@@ -1,0 +1,197 @@
+{
+  "otherStories": "Outras histórias:",
+  "stories": [
+    {
+      "file": "/assets/videos/Story1_pt.mp4",
+      "title": "Apresentação",
+      "image": "CapaStory1-pt.png",
+      "slug": "/historias/1-apresentacao",
+      "steps": [
+        {
+          "content": "A maioria dos partos de gestações únicas no Brasil acontece <strong>sem complicações</strong>",
+          "obs": ""
+        },
+        {
+          "content": "Mas um número considerável de gestações têm desfechos negativos como asfixia ou até a <strong>morte da recém nascido ou da mãe</strong>",
+          "obs": ""
+        },
+        {
+          "content": "E só agora estamos começando a entender os efeitos deletérios que a <strong>poluição do ar</strong> pode ter sobre a saúde das gestantes, dos recém nascidos e das puérperas",
+          "obs": ""
+        },
+        {
+          "content": "No Brasil, nos últimos cinco anos, 108,6 mil nascidos vivos faleceram nos primeiros 28 dias de vida",
+          "obs": "Fonte: Sistema de informações sobre Mortalidade, DataSUS (2022)\n* Até novembro de 2022"
+        },
+        {
+          "content": "A meta mundial do ODS 3.2 é reduzir a taxa de mortalidade neonatal para pelo menos 12 a cada 1 mil nascidos vivos",
+          "obs": "Fonte: Objetivos de Desenvolvimento Sustentável da Organização das Nações Unidas"
+        },
+        {
+          "content": "O Brasil tem sido bem-sucedido nesse indicador: a meta brasileira é de 5 mortes de recém-nascidos por 1 mil nascidos vivos",
+          "obs": "Fonte: <a href=\"https://www.ipea.gov.br/ods/ods3.html\" target=\"_blank\" noopener noreferrer>Ipea</a> e Objetivos de Desenvolvimento Sustentável da Organização das Nações Unidas"
+        },
+        {
+          "content": "Mas o problema é que esse sucesso não parece ser distribuído de forma igual no país",
+          "obs": "Fonte: Sistema de informações sobre Mortalidade, DataSUS"
+        },
+        {
+          "content": "E além da mortalidade do recém-nascido, do feto e da mãe (gestante ou puérpera), existem ainda outras informações que ampliam o retrato do período perinatal no Brasil",
+          "obs": ""
+        },
+        {
+          "content": "É conhecido que a poluição ambiental tem efeito prejudicial sobre a saúde. Mas, como ela pode afetar esses indicadores? Será que a poluição no inverno afeta muito os indicadores? E em qual medida?",
+          "obs": ""
+        },
+        {
+          "content": "Vamos juntos montar esse quebra-cabeça e explorar esses e outros indicadores na ferramenta do Amplia Saúde\n\n<a href=\"/ferramenta\" target=\"_blank\" noopener noreferrer>ACESSE</a>",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "file": "/assets/videos/Story2_pt.mp4",
+      "title": "Mesmo ambiente, cenários diferentes",
+      "image": "CapaStory2-pt.png",
+      "slug": "/historias/2-mesmo-ambiente-cenarios-diferentes",
+      "steps": [
+        {
+          "content": "O que faz uma cidade ter melhores indicadores de saúde materna e neonatal em relação às cidades vizinhas?",
+          "obs": ""
+        },
+        {
+          "content": "Vamos considerar os exemplos de Santo André, São Bernardo e São Caetano, três cidades vizinhas da região da Grande São Paulo.",
+          "obs": ""
+        },
+        {
+          "content": "Os três municípios possuem condições geográficas e urbanas semelhantes.",
+          "obs": ""
+        },
+        {
+          "content": "A poluição do ar é uma dessas condições: os três tiveram em 2019 uma média anual de concentração de material particulado fino (MP2.5) alta, de cerca de 51,1 µg/m³.",
+          "obs": ""
+        },
+        {
+          "content": "Esse nível de poluição é mais de dez vezes maior do que o considerado como “sem poluição prejudicial”, conforme as diretrizes de qualidade do ar da Organização Mundial da Saúde (OMS).",
+          "obs": "Fonte: Organização Mundial da Saúde. Diretrizes de Qualidade do Ar - Atualização 2021. Copenhague, Dinamarca: Escritório Regional da OMS para a Europa (2021)."
+        },
+        {
+          "content": "A exposição prolongada ao ar insalubre é associada a agravamento do quadro em pessoas com doenças vasculares e respiratórias. Teria um maior efeito sobre as grávidas com alguma condição de base?",
+          "obs": ""
+        },
+        {
+          "content": "Por outro lado, se olharmos para o peso ao nascer, vemos que as três cidades apresentam variações bem distintas.",
+          "obs": ""
+        },
+        {
+          "content": "O mesmo vale para os nascidos pequenos em relação à idade gestacional. É possível que a poluição ambiental tenha algum efeito nessa variabilidade?",
+          "obs": ""
+        },
+        {
+          "content": "Ainda estamos tentando entender como esses indicadores se relacionam e de que maneira -- e essas descobertas são fundamentais para a saúde das gerações futuras e atuais.",
+          "obs": ""
+        },
+        {
+          "content": "Vamos montar esse quebra-cabeça e explorar indicadores do período perinatal na ferramenta do Amplia Saúde.\n\n<a href=\"/ferramenta\" target=\"_blank\" noopener noreferrer>ACESSE</a>",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "file": "/assets/videos/Story3_pt.mp4",
+      "title": "Dois extremos",
+      "image": "CapaStory3-pt.png",
+      "slug": "/historias/3-dois-extremos",
+      "steps": [
+        {
+          "content": "Sabemos que a saúde neonatal é determinada por muitos fatores, sendo difícil determinar a influência exata de cada um deles.",
+          "obs": ""
+        },
+        {
+          "content": "As histórias de algumas cidades, entretanto, chamam a atenção e nos fazem pensar no que poderia explicar certos comportamentos dos dados.",
+          "obs": ""
+        },
+        {
+          "content": "Por exemplo: Engenheiro Paulo de Frontin (RJ) e Turvo (SC) são cidades semelhantes em muitos sentidos.",
+          "obs": ""
+        },
+        {
+          "content": "Ambas têm quase a mesma população, o mesmo nível de IDH-M* e uma taxa de natalidade semelhante.",
+          "obs": "*Índice de Desenvolvimento Humano Municipal"
+        },
+        {
+          "content": "Porém, elas diferem  na poluição do ar: a cidade fluminense é cerca de quatro vezes mais poluída do que a catarinense.",
+          "obs": "Fonte: <a href=\"https://www.ipea.gov.br/ods/ods3.html\" noopener noreferrer>Ipea</a> e Objetivos de Desenvolvimento Sustentável da Organização das Nações Unidas"
+        },
+        {
+          "content": "Ao olharmos para a saúde neonatal, o quadro também é bem diferente. Os recém-nascidos de Engenheiro Paulo de Frontin tem em média peso menor do que os de Turvo.",
+          "obs": ""
+        },
+        {
+          "content": "Essa característica varia consideravelmente ao longo do tempo para uma cidade, mas não para a outra.",
+          "obs": ""
+        },
+        {
+          "content": "Fatores como as diferenças entre políticas públicas para a saúde e perfil sociodemográfico podem estar influenciando esse indicador.",
+          "obs": ""
+        },
+        {
+          "content": "Ao passo que os efeitos da poluição sobre os recém-nascidos parecem impactar a duração da gestação e diminuir o peso ao nascer, mas ainda  precisa ser mais investigado.",
+          "obs": ""
+        },
+        {
+          "content": "Vamos montar esse quebra-cabeça e explorar  esses e outros indicadores na ferramenta do Amplia Saúde.\n\n<a href=\"/ferramenta\" target=\"_blank\" noopener noreferrer>ACESSE</a>",
+          "obs": ""
+        }
+      ]
+    },
+    {
+      "file": "/assets/videos/Story4_pt.mp4",
+      "title": "Idades gestacionais",
+      "image": "CapaStory4-pt.png",
+      "slug": "/historias/4-idades-gestacionais",
+      "steps": [
+        {
+          "content": "Existem diversos parâmetros para acompanhar a saúde de uma gestação e o crescimento do feto. Um dos mais importantes é a adequação do peso ao nascer à idade gestacional.",
+          "obs": ""
+        },
+        {
+          "content": "A idade gestacional é calculada considerando o tempo transcorrido a partir da data da última menstruação (DUM), data que precede a concepção, pois ocorre aproximadamente 2 semanas antes da ovulação e fertilização.",
+          "obs": ""
+        },
+        {
+          "content": "Ela não representa a idade embriológica real do feto, mas é tida como padrão entre especialistas para entender a maturação fetal. Serve também para calcular a data provável do parto.",
+          "obs": ""
+        },
+        {
+          "content": "O peso da criança ao nascer pode ser classificado de acordo com a adequação a essa idade, como um indicativo de sua saúde.",
+          "obs": ""
+        },
+        {
+          "content": "Ele pode ser considerado pequeno, adequado, ou grande para sua idade gestacional. E essa classificação pode ser relacionada com outros indicadores.",
+          "obs": ""
+        },
+        {
+          "content": "A cidade de Amajari, em Roraima, por exemplo, tem uma das taxas mais altas no Brasil de nascidos com peso inferior ao esperado para sua idade gestacional: 18,41%.",
+          "obs": ""
+        },
+        {
+          "content": "Estudos científicos mostram que a exposição da mãe durante a gestação à poluição atmosférica  afeta a duração da gravidez e o peso ao nascer, e poderia, portanto, afetar a adequação do peso à idade gestacional.",
+          "obs": "Fonte: JAMA Network Open. 2020;3(6):e208243. doi:10.1001/jamanetworkopen.2020.8243"
+        },
+        {
+          "content": "Petrópolis, no Rio de Janeiro, também tem taxas mais altas no Brasil de nascidos com peso inferior ao esperado para sua idade gestacional, mas os níveis de MP 2.5 muito mais elevados.",
+          "obs": ""
+        },
+        {
+          "content": "Mas, as relações entre essas informações ainda não são conclusivas e precisam ser melhor investigadas.",
+          "obs": ""
+        },
+        {
+          "content": "Vamos montar esse quebra-cabeça e explorar  esses e outros indicadores na ferramenta do Amplia Saúde.\n\n<a href=\"/ferramenta\" target=\"_blank\" noopener noreferrer>ACESSE</a>",
+          "obs": ""
+        }
+      ]
+    }
+  ]
+}

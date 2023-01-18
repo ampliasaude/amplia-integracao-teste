@@ -1,0 +1,45 @@
+{
+  "siteTitle": "Amplia Saúde",
+  "description": "Observatory of the pre- and perinatal periods. Investigate with us the relationships between environmental pollution and maternal and neonatal health in Brazil in an interactive tool",
+  "logoAlt": "amplia saúde",
+  "email": "ampliasaude@gmail.com",
+  "url": "https://www.ampliasaude.org",
+  "menuItems": [
+    {
+      "label": "Tool",
+      "path": "/ferramenta"
+    },
+    {
+      "label": "Stories",
+      "path": "/#historias"
+    },
+    {
+      "label": "Publications",
+      "path": "/publicacoes"
+    },
+    {
+      "label": "FAQ",
+      "path": "/#perguntas"
+    },
+    {
+      "label": "About",
+      "path": "/sobre"
+    },
+    {
+      "label": "Methodology",
+      "path": "/metodologia"
+    }
+  ],
+  "socialMedia": [
+    {
+      "alt": "Youtube",
+      "icon": "youtube",
+      "path": "https://www.youtube.com/channel/UCKES3lAI4py62vubCNYgz_Q"
+    },
+    {
+      "alt": "Instagram",
+      "icon": "instagram",
+      "path": "https://www.instagram.com/labvis_ufrj/"
+    }
+  ]
+}

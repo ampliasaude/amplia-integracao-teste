@@ -1,0 +1,86 @@
+{
+  "title": "Sobre",
+  "about": "O projeto investiga as relações entre poluição atmosférica e saúde, de forma a oferecer uma alternativa inovadora de análise visual de dados sobre a saúde materno-neonatal. Grandes volumes de dados secundários (Big Data), obtidos do Sistema de Informação de Nascidos Vivos (SINASC) e do Sistema de Informação sobre Mortalidade (SIM), foram disponibilizados e organizados visualmente em paralelo com dados obtidos do Sistema de Informações Ambientais Integrado à Saúde (SISAM) de forma a relacionar dezenas de indicadores de saúde (baixo peso ao nascer, adequação à idade gestacional, etc) à dados de concentração de Material Particulado fino (MP<sub>2.5</sub>), partículas de até 2,5 micrômetros, componente predominante da poluição atmosférica.\n\nDada a importância de uma divulgação científica engajante e atrativa que reverbera o conhecimento científico produzido na academia buscamos ampliar o acesso a dados e achados científicos. A expertise da equipe em visualização de dados, infografia digital e design da informação culminou no desenvolvimento deste site que possui duas principais camadas de navegação: a Ferramenta e as Histórias.\n\nA Ferramenta oferece informação de uma forma exploratória, sob demanda e detalhada. É uma camada dirigida àqueles que buscam realizar consultas específicas, formular ou testar hipóteses e tomar decisões orientadas por dados. Por outro lado, as Histórias oferecem informação de forma mais rápida e simples de ser consumida através de web stories, um formato dinâmico e enxuto que conta histórias sobre os dados contidos no projeto. É uma camada que atende uma audiência mais ampla que deseja se informar sem necessariamente explorar a ferramenta.",
+  "subtitle": "Realização e financiamento",
+  "performance": "O projeto “Amplia Saúde: Observatório dos períodos pré- e perinatal” é uma iniciativa interinstitucional que reúne equipe multidisciplinar de pesquisadores da <a noopener noreferrer target=\"_blank\" href=\"https://portal.fiocruz.br/\">Fiocruz</a>, do <a noopener noreferrer target=\"_blank\" href=\"https://labvis.eba.ufrj.br/\">LabVis-UFRJ</a> (Laboratório de Visualidade e Visualização) da Escola de Belas Artes da Universidade Federal do Rio de Janeiro (EBA/UFRJ) e do Laboratório de Computação Gráfica da Coppe/UFRJ.\n\nO projeto é apoiado pelo Programa <a noopener noreferrer target=\"_blank\" href=\"https://gcgh.grandchallenges.org/challenge/grand-challenges-explorations-brazil-data-science-approaches-improve-maternal-and-child-0\">“Grand Challenges Explorations – Brasil: Ciência de Dados para Melhorar a Saúde Materno-Infantil, Saúde da Mulher e Saúde da Criança no Brasil”</a> com recursos da <a noopener noreferrer target=\"_blank\" href=\"https://www.gatesfoundation.org/\">Fundação Bill & Melinda Gates</a>, CNPq e Faperj e apoio do <a noopener noreferrer target=\"_blank\" href=\"https://www.gov.br/saude/pt-br\">Ministério da Saúde</a>.",
+  "teamTitle": "Equipe",
+  "team": [
+    {
+      "name": "Doris Kosminsky",
+      "role": "Investigadora principal",
+      "description": "Coordenadora do projeto e do design",
+      "link": "http://lattes.cnpq.br/4801768397535572",
+      "img": "/assets/team/doris.png"
+    },
+    {
+      "name": "Ximena Illarramendi",
+      "role": "Investigadora principal",
+      "description": "Coordenadora científica (área ciências da saúde)",
+      "link": "http://lattes.cnpq.br/5367049385539023",
+      "img": "/assets/team/ximena.png"
+    },
+    {
+      "name": "Claudio Esperança",
+      "role": "Investigador principal",
+      "description": "Coordenador de desenvolvimento",
+      "link": "https://cesperanca.org",
+      "img": "/assets/team/claudio.png"
+    },
+    {
+      "name": "Júlia Giannella",
+      "role": "Pesquisadora",
+      "description": "Designer e coordenadora de divulgação científica",
+      "link": "https://www.juliagiannella.com.br/",
+      "img": "/assets/team/julia.png"
+    },
+    {
+      "name": "Renato Mauro",
+      "role": "Pesquisador",
+      "description": "Desenvolvedor",
+      "link": "http://lattes.cnpq.br/5669803166914813",
+      "img": "/assets/team/renato.png"
+    },
+    {
+      "name": "Lucas Barcellos Oliveira",
+      "role": "Pesquisador",
+      "description": "Desenvolvedor",
+      "link": "https://br.linkedin.com/in/lucasbarcellosoliveira",
+      "img": "/assets/team/lucas.png"
+    },
+    {
+      "name": "Saint Clair Gomes Junior",
+      "role": "Pesquisador",
+      "description": "Consultor científico (área saúde neonatal e saúde pública)",
+      "link": "http://lattes.cnpq.br/3477850932376112",
+      "img": "/assets/team/saint-clair.png"
+    },
+    {
+      "name": "Rodolfo Almeida",
+      "role": "Estudante de pós-graduação",
+      "description": "Jornalista visual",
+      "link": "https://rodolfoalmeida.info/",
+      "img": "/assets/team/rodolfo.png"
+    },
+    {
+      "name": "Igor Falconieri",
+      "role": "Estudante de pós-graduação",
+      "description": "Assistente de design de interação",
+      "link": "https://www.linkedin.com/in/igorfalconieri",
+      "img": "/assets/team/igor.png"
+    },
+    {
+      "name": "Valentina Nakayama",
+      "role": "Estudante de graduação",
+      "description": "Desenvolvedora assistente",
+      "link": "https://www.linkedin.com/in/vnakayama/",
+      "img": "/assets/team/valentina.png"
+    },
+    {
+      "name": "Annette Hester",
+      "role": "Colaboradora",
+      "description": "Gestão do projeto",
+      "link": "https://thehesterview.com/",
+      "img": "/assets/team/annette.png"
+    }
+  ]
+}
