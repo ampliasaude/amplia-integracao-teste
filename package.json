@@ -10,8 +10,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ampliasaude/caracteristicas-nascimento": "https://api.observablehq.com/@ampliasaude/caracteristicas-nascimento-v6.tgz?v=3",
+    "@ampliasaude/mapa": "https://api.observablehq.com/@ampliasaude/mapa-v7.tgz?v=3",
+    "@ampliasaude/mortalidade": "https://api.observablehq.com/@ampliasaude/mortalidade-v6.tgz?v=3",
+    "@ampliasaude/nascidos-vivos": "https://api.observablehq.com/@ampliasaude/nascidos-vivos-v6.tgz?v=3",
+    "@observablehq/runtime": "4",
     "@types/styled-components": "^5.1.26",
     "gray-matter": "^4.0.3",
+    "html2canvas": "^1.4.1",
     "next": "12.3.1",
     "next-i18next": "^12.1.0",
     "next-language-detector": "^1.0.2",
@@ -23,9 +29,11 @@
     "rehype-raw": "^6.1.1",
     "remark": "^14.0.2",
     "remark-html": "^15.0.1",
+    "save-html-as-image": "^1.7.1",
     "src": "link:./src",
     "styled-components": "^5.3.6",
-    "swiper": "^8.4.4"
+    "swiper": "^8.4.4",
+    "write-excel-file": "^1.4.21"
   },
   "devDependencies": {
     "@types/node": "18.11.0",
