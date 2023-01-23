@@ -13,6 +13,7 @@ export const Wrapper = styled.div<Props>`
       : "calc(var(--max-width) + var(--padding-page) * 2)"};
   margin: 0 auto;
   padding: 0 var(--padding-page);
+  width: 100%;
 `;
 
 const Column: FC<Props> = ({ children, maxWidth }) => {

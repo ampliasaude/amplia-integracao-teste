@@ -60,7 +60,7 @@ const ToolPage: React.FC<Props> = ({ posts }) => {
   return (
     <Layout title={t("title")}>
       <Section backgroundColor="var(--cyan-faded)" padding={150}>
-        <Column maxWidth={700}>
+        <Column maxWidth={800}>
           {/* INTRO */}
           <h1>{t("title")}</h1>
           <Spacer height={35} />

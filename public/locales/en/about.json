@@ -4,20 +4,13 @@
   "subtitle": "Performance and funding",
   "performance": "The project “Extended Health: Observatory of the pre- and perinatal care periods” is an inter-institutional initiative gathering a multidisciplinary team of researchers from <a noopener noreferrer target=\"_blank\" href=\"https://portal.fiocruz.br/\">Fiocruz</a>, <a noopener noreferrer target=\"_blank\" href=\"https://labvis.eba.ufrj.br/\">LabVis-UFRJ</a> (Laboratory of Visuality and Visualization) from the School of Fine Arts of the Federal University of Rio de Janeiro (EBA/ UFRJ), and the Computer Graphics Laboratory at COPPE/UFRJ.\n\nThe project is supported by the Program <a noopener noreferrer target=\"_blank\" href=\"https://gcgh.grandchallenges.org/challenge/grand-challenges-explorations-brazil-data-science-approaches-improve-maternal-and-child-0\">“Grand Challenges Explorations – Brazil: Data Science to Improve Maternal and Child Health, Women's Health and Child Health in Brazil”</a> funded by the <a noopener noreferrer target=\"_blank\" href=\"https://www.gatesfoundation.org/\">Bill & Melinda Gates Foundation</a>, CNPq, and FAPERJ and supported by the <a noopener noreferrer target=\"_blank\" href=\"https://www.gov.br/saude/pt-br\">Brazilian Ministry of Health</a>.",
   "teamTitle": "Team",
-  "team": [
+  "team1": [
     {
       "name": "Doris Kosminsky",
       "role": "Principal investigator",
       "description": "Project coordination and data visualization design lead",
       "link": "http://lattes.cnpq.br/4801768397535572",
       "img": "/assets/team/doris.png"
-    },
-    {
-      "name": "Ximena Illarramendi",
-      "role": "Principal investigator",
-      "description": "Scientific coordinator (health sciences area)",
-      "link": "http://lattes.cnpq.br/5367049385539023",
-      "img": "/assets/team/ximena.png"
     },
     {
       "name": "Claudio Esperança",
@@ -27,11 +20,11 @@
       "img": "/assets/team/claudio.png"
     },
     {
-      "name": "Júlia Giannella",
-      "role": "Researcher",
-      "description": "Designer and scientific dissemination coordinator",
-      "link": "https://www.juliagiannella.com.br/",
-      "img": "/assets/team/julia.png"
+      "name": "Ximena Illarramendi",
+      "role": "Principal investigator",
+      "description": "Scientific coordinator (health sciences area)",
+      "link": "http://lattes.cnpq.br/5367049385539023",
+      "img": "/assets/team/ximena.png"
     },
     {
       "name": "Renato Mauro",
@@ -41,11 +34,11 @@
       "img": "/assets/team/renato.png"
     },
     {
-      "name": "Lucas Barcellos Oliveira",
+      "name": "Júlia Giannella",
       "role": "Researcher",
-      "description": "Developer",
-      "link": "https://br.linkedin.com/in/lucasbarcellosoliveira",
-      "img": "/assets/team/lucas.png"
+      "description": "Designer and scientific dissemination coordinator",
+      "link": "https://www.juliagiannella.com.br/",
+      "img": "/assets/team/julia.png"
     },
     {
       "name": "Saint Clair Gomes Junior",
@@ -54,6 +47,22 @@
       "link": "http://lattes.cnpq.br/3477850932376112",
       "img": "/assets/team/saint-clair.png"
     },
+    {
+      "name": "Annette Hester",
+      "role": "Collaborator",
+      "description": "Project management",
+      "link": "https://thehesterview.com/ ",
+      "img": "/assets/team/annette.png"
+    },
+    {
+      "name": "Lucas Barcellos Oliveira",
+      "role": "Researcher",
+      "description": "Developer",
+      "link": "https://br.linkedin.com/in/lucasbarcellosoliveira",
+      "img": "/assets/team/lucas.png"
+    }
+  ],
+  "team2": [
     {
       "name": "Rodolfo Almeida",
       "role": "Graduate student",
@@ -74,13 +83,6 @@
       "description": "Assistant developer",
       "link": "https://www.linkedin.com/in/vnakayama/",
       "img": "/assets/team/valentina.png"
-    },
-    {
-      "name": "Annette Hester",
-      "role": "Collaborator",
-      "description": "Project management",
-      "link": "https://thehesterview.com/ ",
-      "img": "/assets/team/annette.png"
     }
   ]
 }

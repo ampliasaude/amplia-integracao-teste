@@ -19,7 +19,7 @@ type Profile = {
 
 const TeamTitle = styled.h2`
   margin: auto;
-  max-width: 600px;
+  max-width: 800px;
 `;
 
 const TeamWrapper = styled.ul`
@@ -85,7 +85,7 @@ const About = () => {
   return (
     <Layout title={t("title")}>
       <Section backgroundColor="var(--cyan-faded)" padding={150}>
-        <Column maxWidth={600}>
+        <Column maxWidth={800}>
           {/* INTRO */}
           <h1>{t("title")}</h1>
           <p dangerouslySetInnerHTML={{ __html: t("about") }} />
@@ -101,7 +101,13 @@ const About = () => {
           <TeamTitle>{t("teamTitle")}</TeamTitle>
           <Spacer height={75} />
           <TeamWrapper>
-            {(t("team", { returnObjects: true }) as Profile[]).map(
+            {(t("team1", { returnObjects: true }) as Profile[]).map(
+              (card: Profile) => ProfileCard(card)
+            )}
+          </TeamWrapper>
+          <Spacer height={150} />
+          <TeamWrapper>
+            {(t("team2", { returnObjects: true }) as Profile[]).map(
               (card: Profile) => ProfileCard(card)
             )}
           </TeamWrapper>

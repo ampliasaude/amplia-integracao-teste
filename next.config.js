@@ -6,7 +6,7 @@ const nextConfig = {
   reactStrictMode: true,
   swcMinify: true,
   reactStrictMode: false,
-  pageExtensions: ['html', 'jsx', 'js', 'tsx', 'ts'],
+  trailingSlash: true,
 };
 
 module.exports = nextConfig;

@@ -14,7 +14,7 @@ const ToolPage: React.FC<Props> = ({ post }) => {
   return (
     <Layout title={post.title}>
       <Section backgroundColor="var(--cyan-faded)" padding={150}>
-        <Column maxWidth={850}>
+        <Column maxWidth={1000}>
           <PostContent post={post} />
         </Column>
       </Section>

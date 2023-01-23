@@ -4,20 +4,13 @@
   "subtitle": "Realização e financiamento",
   "performance": "O projeto “Amplia Saúde: Observatório dos períodos pré- e perinatal” é uma iniciativa interinstitucional que reúne equipe multidisciplinar de pesquisadores da <a noopener noreferrer target=\"_blank\" href=\"https://portal.fiocruz.br/\">Fiocruz</a>, do <a noopener noreferrer target=\"_blank\" href=\"https://labvis.eba.ufrj.br/\">LabVis-UFRJ</a> (Laboratório de Visualidade e Visualização) da Escola de Belas Artes da Universidade Federal do Rio de Janeiro (EBA/UFRJ) e do Laboratório de Computação Gráfica da Coppe/UFRJ.\n\nO projeto é apoiado pelo Programa <a noopener noreferrer target=\"_blank\" href=\"https://gcgh.grandchallenges.org/challenge/grand-challenges-explorations-brazil-data-science-approaches-improve-maternal-and-child-0\">“Grand Challenges Explorations – Brasil: Ciência de Dados para Melhorar a Saúde Materno-Infantil, Saúde da Mulher e Saúde da Criança no Brasil”</a> com recursos da <a noopener noreferrer target=\"_blank\" href=\"https://www.gatesfoundation.org/\">Fundação Bill & Melinda Gates</a>, CNPq e Faperj e apoio do <a noopener noreferrer target=\"_blank\" href=\"https://www.gov.br/saude/pt-br\">Ministério da Saúde</a>.",
   "teamTitle": "Equipe",
-  "team": [
+  "team1": [
     {
       "name": "Doris Kosminsky",
       "role": "Investigadora principal",
       "description": "Coordenadora do projeto e do design",
       "link": "http://lattes.cnpq.br/4801768397535572",
       "img": "/assets/team/doris.png"
-    },
-    {
-      "name": "Ximena Illarramendi",
-      "role": "Investigadora principal",
-      "description": "Coordenadora científica (área ciências da saúde)",
-      "link": "http://lattes.cnpq.br/5367049385539023",
-      "img": "/assets/team/ximena.png"
     },
     {
       "name": "Claudio Esperança",
@@ -27,11 +20,11 @@
       "img": "/assets/team/claudio.png"
     },
     {
-      "name": "Júlia Giannella",
-      "role": "Pesquisadora",
-      "description": "Designer e coordenadora de divulgação científica",
-      "link": "https://www.juliagiannella.com.br/",
-      "img": "/assets/team/julia.png"
+      "name": "Ximena Illarramendi",
+      "role": "Investigadora principal",
+      "description": "Coordenadora científica (área ciências da saúde)",
+      "link": "http://lattes.cnpq.br/5367049385539023",
+      "img": "/assets/team/ximena.png"
     },
     {
       "name": "Renato Mauro",
@@ -41,11 +34,11 @@
       "img": "/assets/team/renato.png"
     },
     {
-      "name": "Lucas Barcellos Oliveira",
-      "role": "Pesquisador",
-      "description": "Desenvolvedor",
-      "link": "https://br.linkedin.com/in/lucasbarcellosoliveira",
-      "img": "/assets/team/lucas.png"
+      "name": "Júlia Giannella",
+      "role": "Pesquisadora",
+      "description": "Designer e coordenadora de divulgação científica",
+      "link": "https://www.juliagiannella.com.br/",
+      "img": "/assets/team/julia.png"
     },
     {
       "name": "Saint Clair Gomes Junior",
@@ -54,6 +47,22 @@
       "link": "http://lattes.cnpq.br/3477850932376112",
       "img": "/assets/team/saint-clair.png"
     },
+    {
+      "name": "Annette Hester",
+      "role": "Colaboradora",
+      "description": "Gestão do projeto",
+      "link": "https://thehesterview.com/",
+      "img": "/assets/team/annette.png"
+    },
+    {
+      "name": "Lucas Barcellos Oliveira",
+      "role": "Pesquisador",
+      "description": "Desenvolvedor",
+      "link": "https://br.linkedin.com/in/lucasbarcellosoliveira",
+      "img": "/assets/team/lucas.png"
+    }
+  ],
+  "team2": [
     {
       "name": "Rodolfo Almeida",
       "role": "Estudante de pós-graduação",
@@ -74,13 +83,6 @@
       "description": "Desenvolvedora assistente",
       "link": "https://www.linkedin.com/in/vnakayama/",
       "img": "/assets/team/valentina.png"
-    },
-    {
-      "name": "Annette Hester",
-      "role": "Colaboradora",
-      "description": "Gestão do projeto",
-      "link": "https://thehesterview.com/",
-      "img": "/assets/team/annette.png"
     }
   ]
 }

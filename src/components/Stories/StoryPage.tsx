@@ -7,10 +7,16 @@ import Column from "src/components/commons/Column";
 import StoryContent from "src/components/Stories/StoryContent";
 import Stories from "src/components/Home/Stories";
 import Spacer from "src/components/commons/Spacer";
+import styled from "styled-components";
 
 type Props = {
   storyIndex: number;
 };
+
+const Title = styled.h1`
+  color: var(--white);
+  font-size: 1.875rem;
+`;
 
 const StoryPage: React.FC<Props> = ({ storyIndex }) => {
   const { t } = useTranslation("stories");
@@ -24,6 +30,7 @@ const StoryPage: React.FC<Props> = ({ storyIndex }) => {
       <>
         <Section backgroundColor="var(--gray-dark)" padding={150}>
           <Column maxWidth={700}>
+            <Title>{story.title}</Title>
             <StoryContent story={story} />
           </Column>
           <Spacer height={100} />

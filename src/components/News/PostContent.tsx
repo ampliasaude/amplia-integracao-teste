@@ -16,7 +16,7 @@ const Wrapper = styled.article`
 
   @media (min-width: 768px) {
     border-radius: 20px;
-    padding: 50px 150px;
+    padding: 50px 100px;
   }
 
   & > * {
@@ -99,7 +99,7 @@ const Content = styled.div`
   iframe {
     aspect-ratio: 16/9;
     height: auto;
-    max-width: 100%;
+    width: 100%;
   }
 `;
 

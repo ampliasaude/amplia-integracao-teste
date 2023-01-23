@@ -6,8 +6,6 @@ date: 16-01-2022
 tag: Vídeo
 ---
 
-# Conheça o Amplia Saúde
-
 O “[Amplia Saúde](https://bigdata.icict.fiocruz.br/amplia-saude) – observatório do período pré- e perinatal” '
 é um projeto interinstitucional que visa o desenvolvimento de ferramentas interativas de exploração e análise visual de dados a serem aplicadas à saúde materno-infantil dos períodos pré e perinatal. Confira no vídeo institucional a seguir, os bastidores do desenvolvimento do projeto, as etapas de trabalho e falas dos pesquisadores e profissionais envolvidos.
 

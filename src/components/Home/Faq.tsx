@@ -32,7 +32,7 @@ const Answer = styled.div<{ open: boolean }>`
     `};
 
   @media (min-width: 768px) {
-    max-width: 70%;
+    max-width: 90%;
   }
 `;
 
@@ -61,7 +61,7 @@ const Faq = () => {
 
   return (
     <Section backgroundColor="var(--cyan)" id="perguntas" padding={100}>
-      <Column maxWidth={700}>
+      <Column maxWidth={800}>
         <>
           <h2 style={{ marginBottom: 0 }}>{data.title}</h2>
           <p
