@@ -8,7 +8,8 @@ const ToolPage = () => {
 
   useEffect(() => {
     let locale = router.query.locale;
-    router.push(`ferramenta/Mapa.html?locale=${locale}`);
+    console.log(router);
+    router.push(`ferramenta/Mapa?locale=${locale}`);
   }, []);
 
   return (

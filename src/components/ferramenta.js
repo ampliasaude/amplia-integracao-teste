@@ -122,6 +122,8 @@ const style = `
 
 `;
 
+let mainNotebook = null;
+
 const downloadSchemaMapa = [
   {
     column: 'cod',
@@ -229,11 +231,11 @@ function menuListener(inspector, router) {
         let locale = router.query.locale;
         value.addEventListener("aba",ev=>{
             if(ev.detail.index == 1) {
-              router.push(`NascidosVivos.html?locale=${locale}`);
+              router.push(`NascidosVivos?locale=${locale}`);
             } else if(ev.detail.index == 2) {
-              router.push(`CaracteristicasNascimento.html?locale=${locale}`);
+              router.push(`CaracteristicasNascimento?locale=${locale}`);
             } else if(ev.detail.index == 3) {
-              router.push(`MortalidadeInfantil.html?locale=${locale}`);
+              router.push(`MortalidadeInfantil?locale=${locale}`);
             }
         });
         return this._chain(value, name);
@@ -241,9 +243,9 @@ function menuListener(inspector, router) {
     return inspector;
 }
 
-function adjustObservableWidth(visRef, main) {
+function adjustObservableWidth(visRef) {
     const library = new Library();
-    main.redefine("width", library.Generators.observe(notify => {
+    mainNotebook.redefine("width", library.Generators.observe(notify => {
       let width = null;
       function resized() {
         if(visRef.current) {
@@ -260,12 +262,7 @@ function adjustObservableWidth(visRef, main) {
       return () => removeEventListener("resize", resized);
     }));
 
-    main.value("makeDownloadData")
-      .then(f=>{makeDownloadData=f})
-      .catch(err=>{})
-    ;
-
-    main.value("linkParam")
+    mainNotebook.value("linkParam")
       .then(f=>{linkParam=f})
       .catch(err=>{})
     ;
@@ -288,7 +285,8 @@ export function MapaInternal() {
       if (name === "styles") return new Inspector(stylesRef.current);
       return ["clearMainWindow","panel","populate","afterInitialLayout","populateMapa","viewof dorling","viewof colorSelect", "color", "dorlingCircleConf","storageUpdate","scatterConfig","biglayoutToggle","updateScatterConfig","reactToMunSelecionados","xaxis","yaxis","initialLoad"].includes(name);
     });
-    adjustObservableWidth(mainWindowRef, main);
+    mainNotebook = main;
+    adjustObservableWidth(mainWindowRef);
     return () => runtime.dispose();
   }, []);
 
@@ -342,8 +340,8 @@ function NascidosVivosInternal() {
       if (name === "style") return new Inspector(styleRef.current);
       return ["menu_municipios","barra_municipios","gPESO","funcoesGeradoras","gPIG","gTOTAL","checkFiltros","onfirstload","getCurrentConf","cabecalho","width"].includes(name);
     });
-
-    adjustObservableWidth(visRef, main);
+    mainNotebook = main;
+    adjustObservableWidth(visRef);
     return () => runtime.dispose();
   }, []);
 
@@ -383,7 +381,8 @@ function CaracteristicasNascimentoInternal() {
       if (name === "style") return new Inspector(styleRef.current);
       return ["menu_municipios","barra_municipios","gPESO","funcoesGeradoras","gROBSON","gTOTAL","checkFiltros","onfirstload","getCurrentConf","cabecalho"].includes(name);
     });
-    adjustObservableWidth(visRef, main);
+    mainNotebook = main;
+    adjustObservableWidth(visRef);
     return () => runtime.dispose();
   }, []);
 
@@ -422,7 +421,8 @@ function MortalidadeInfantilInternal() {
       if (name === "style") return new Inspector(styleRef.current);
       return ["menu_municipios","barra_municipios","gPESO","funcoesGeradoras","gROBSON","gTOTAL","checkFiltros","onfirstload","getCurrentConf","cabecalho"].includes(name);
     });
-    adjustObservableWidth(visRef, main);
+    mainNotebook = main;
+    adjustObservableWidth(visRef);
     return () => runtime.dispose();
   }, []);
 
@@ -464,12 +464,12 @@ function MenuFerramenta() {
 
   function mapaClick() {
     let locale = router.query.locale;
-    router.push(`Mapa.html?locale=${locale}`);
+    router.push(`Mapa?locale=${locale}`);
   }
   
   function trilhaClick() {
     let locale = router.query.locale;
-    router.push(`NascidosVivos.html?locale=${locale}`);
+    router.push(`NascidosVivos?locale=${locale}`);
   }
 
   function copyLink() {
@@ -478,17 +478,27 @@ function MenuFerramenta() {
     if(param.length) {
       param = "?"+param
     }
-    navigator.clipboard.writeText(`${url}${param}`);
+    let fakeElem = document.body.appendChild(document.createElement("textarea"));
+    fakeElem.style.position = "absolute";
+    fakeElem.style.left = "-9999px";
+    fakeElem.setAttribute("readonly", "");
+    fakeElem.value = `${url}${param}`;
+    fakeElem.select();
+    document.execCommand("copy");
+    fakeElem.parentNode.removeChild(fakeElem);
   }
   
   function downloadDados() {
-    if(makeDownloadData) {
-      let data = makeDownloadData();
-      let schema = downloadSchemaMapa;
-      let fileName = schema === downloadSchemaMapa ? `dados-mapa-${data[0].ANO}.xlsx` : 'file.xlsx';
-      writeXlsxFile(data, { schema, fileName });
-    } else {
-      alert("Download não implementado para as trilhas");
+    if(mainNotebook) {
+      mainNotebook.value("makeDownloadData")
+        .then(makeDownloadData=>{
+          let data = makeDownloadData();
+          let schema = downloadSchemaMapa;
+          let fileName = schema === downloadSchemaMapa ? `dados-mapa-${data[0].ANO}.xlsx` : 'file.xlsx';
+          writeXlsxFile(data, { schema, fileName });
+        })
+        .catch(err=>{alert("Download não implementado para as trilhas")})
+      ;
     }
   }
 
