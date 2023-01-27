@@ -1,34 +1,37 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Amplia Saúde website
 
-## Getting Started
+## Scripts importantes
 
-First, run the development server:
+### yarn dev
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Roda aplicação em modo de desenvolvimento
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### yarn build
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+Roda tanto `next build` quanto `next export`, gerando um diretório `./out` para publicação
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+---
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+## Diretórios importantes para manutenção de conteúdo
 
-## Learn More
+### /public/assets/publicacoes
 
-To learn more about Next.js, take a look at the following resources:
+Contém as imagens, separadas em subdiretórios, dos conteúdos da seção "publicações"
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### /public/files
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Contém os arquivos PDF de metodologia, em inglês e português
 
-## Deploy on Vercel
+### /public/locales
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Contém os arquivos `json` com os textos localizados de todo o site, separados por seção
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+### /src/\_publicacoes
+
+Contém os arquivos markdown de cada conteúdo da seção "publicações". O nome do arquivo `md` deve ser o mesmo nos dois idiomas, pois será utilizado para criar a URL.
+O `src` das imagens utilizadas deve ser direcionada para o diretório de assets mencionado acima:
+`/assets/publicacoes/[slug]/[filename.xxx]`
+
+### /src/pages
+
+Os componentes no nível superior desta pasta apenas direcionam para o seu correspondente dentro de `/[locale]`, para permitir um redirecionamento no navegador ao locale adequado.

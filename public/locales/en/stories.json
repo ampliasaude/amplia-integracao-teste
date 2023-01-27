@@ -51,7 +51,7 @@
     },
     {
       "file": "/assets/videos/Story2_en.mp4",
-      "title": "Mesmo ambiente, cenários diferentes",
+      "title": "Same environment, different conditions",
       "image": "CapaStory2-en.png",
       "slug": "/historias/2-mesmo-ambiente-cenarios-diferentes",
       "steps": [
@@ -99,7 +99,7 @@
     },
     {
       "file": "/assets/videos/Story3_en.mp4",
-      "title": "Dois extremos",
+      "title": "Two extremes",
       "image": "CapaStory3-en.png",
       "slug": "/historias/3-dois-extremos",
       "steps": [
@@ -147,7 +147,7 @@
     },
     {
       "file": "/assets/videos/Story4_en.mp4",
-      "title": "Gestational age",
+      "title": "Gestational ages",
       "image": "CapaStory4-en.png",
       "slug": "/historias/4-idades-gestacionais",
       "steps": [

@@ -59,6 +59,10 @@ export const Footer: React.FC<Props> = ({ mode = "light" }) => {
 
   let currentLocale =
     router.query.locale || nextI18nextConfig.i18n.defaultLocale;
+  const creditsSrc =
+    currentLocale === "en"
+      ? "/assets/credits_en.png"
+      : "/assets/credits_pt.png";
 
   const menuItems: MenuItem[] = t("menuItems", { returnObjects: true });
 
@@ -76,7 +80,7 @@ export const Footer: React.FC<Props> = ({ mode = "light" }) => {
 
         <BlockLeft>
           <picture>
-            <img alt="" src="/assets/credits.png" />
+            <img alt="" src={creditsSrc} />
           </picture>
         </BlockLeft>
       </FlexColumn>
