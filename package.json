@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@ampliasaude/caracteristicas-nascimento": "https://api.observablehq.com/@ampliasaude/caracteristicas-nascimento-v6.tgz?v=3",
-    "@ampliasaude/mapa": "https://api.observablehq.com/@ampliasaude/mapa-v7.tgz?v=3",
+    "@ampliasaude/mapa": "https://api.observablehq.com/@ampliasaude/mapa-v8.tgz?v=3",
     "@ampliasaude/mortalidade": "https://api.observablehq.com/@ampliasaude/mortalidade-v6.tgz?v=3",
     "@ampliasaude/nascidos-vivos": "https://api.observablehq.com/@ampliasaude/nascidos-vivos-v6.tgz?v=3",
     "@observablehq/runtime": "4",
