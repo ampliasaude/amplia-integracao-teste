@@ -294,6 +294,7 @@ export function MapaInternal() {
   const mainWindowRef = useRef();
   const allStylesRef = useRef();
   const stylesRef = useRef();
+  const helpButtonRef = useRef();
   const router = useRouter();
 
   useEffect(() => {
@@ -302,6 +303,7 @@ export function MapaInternal() {
       if (name === "mainWindow") return new Inspector(mainWindowRef.current);
       if (name === "allStyles") return new Inspector(allStylesRef.current);
       if (name === "styles") return new Inspector(stylesRef.current);
+      if (name === "helpButton") return new Inspector(helpButtonRef.current);
       return ["clearMainWindow","panel","populate","afterInitialLayout","populateMapa","viewof dorling","viewof colorSelect", "color", "dorlingCircleConf","storageUpdate","scatterConfig","biglayoutToggle","updateScatterConfig","reactToMunSelecionados","xaxis","yaxis","initialLoad","setOnPageUnload"].includes(name);
     });
     mainNotebook = main;
@@ -312,8 +314,8 @@ export function MapaInternal() {
   return (
     <div className="ferramenta">
       <div className="mapa">
-        <MenuFerramenta />
-        <div className="saveImg" ref={mainWindowRef} style={{boxSizing:"content-box",whiteSpace:"normal"}}/>
+        <MenuFerramenta helpButton={<span ref={helpButtonRef} style={{whiteSpace:"normal"}}></span>} />
+        <div className="saveImg" ref={mainWindowRef} style={{position:"relative",boxSizing:"content-box",whiteSpace:"normal"}}/>
         <div ref={allStylesRef} />
         <div ref={stylesRef} />
       </div>
@@ -348,6 +350,7 @@ function NascidosVivosInternal() {
   const div_controlesRef = useRef();
   const visRef = useRef();
   const styleRef = useRef();
+  const helpButtonRef = useRef();
   const router = useRouter();
 
   useEffect(() => {
@@ -357,6 +360,7 @@ function NascidosVivosInternal() {
       if (name === "div_controles") return new Inspector(div_controlesRef.current);
       if (name === "vis") return new Inspector(visRef.current);
       if (name === "style") return new Inspector(styleRef.current);
+      if (name === "helpButton") return new Inspector(helpButtonRef.current);
       return ["menu_municipios","barra_municipios","gPESO","funcoesGeradoras","gPIG","gTOTAL","checkFiltros","onfirstload","getCurrentConf","cabecalho","width","setOnPageUnload"].includes(name);
     });
     mainNotebook = main;
@@ -367,8 +371,8 @@ function NascidosVivosInternal() {
   return (
     <div className="ferramenta">
       <div className="trilhas">
-        <MenuFerramenta />
-        <div className="mainWindow">
+        <MenuFerramenta helpButton={<span ref={helpButtonRef} style={{whiteSpace:"normal"}}></span>} />
+        <div className="mainWindow" style={{position:"relative",boxSizing:"content-box",whiteSpace:"normal"}}>
           <div className="blocoLocal" ref={div_controlesRef} />
           <div className="blocoMenu" ref={mpRef} />
           <div className="blocoTrilha saveImg" ref={visRef} />
@@ -389,6 +393,7 @@ function CaracteristicasNascimentoInternal() {
   const mpRef = useRef();
   const div_controlesRef = useRef();
   const styleRef = useRef();
+  const helpButtonRef = useRef();
   const router = useRouter();  
 
   useEffect(() => {
@@ -398,6 +403,7 @@ function CaracteristicasNascimentoInternal() {
       if (name === "vis") return new Inspector(visRef.current);
       if (name === "div_controles") return new Inspector(div_controlesRef.current);
       if (name === "style") return new Inspector(styleRef.current);
+      if (name === "helpButton") return new Inspector(helpButtonRef.current);      
       return ["menu_municipios","barra_municipios","gPESO","funcoesGeradoras","gROBSON","gTOTAL","checkFiltros","onfirstload","getCurrentConf","cabecalho","setOnPageUnload"].includes(name);
     });
     mainNotebook = main;
@@ -408,8 +414,8 @@ function CaracteristicasNascimentoInternal() {
   return (
     <div className="ferramenta">
       <div className="trilhas">
-        <MenuFerramenta />
-        <div  className="mainWindow">
+        <MenuFerramenta helpButton={<span ref={helpButtonRef} style={{whiteSpace:"normal"}}></span>} />
+        <div className="mainWindow" style={{position:"relative",boxSizing:"content-box",whiteSpace:"normal"}}>
           <div className="blocoLocal" ref={div_controlesRef} />
           <div className="blocoMenu" ref={mpRef} />
           <div className="blocoTrilha saveImg" ref={visRef} />
@@ -429,6 +435,7 @@ function MortalidadeInfantilInternal() {
   const mpRef = useRef();
   const div_controlesRef = useRef();
   const styleRef = useRef();
+  const helpButton = useRef();
   const router = useRouter();  
 
   useEffect(() => {
@@ -438,6 +445,7 @@ function MortalidadeInfantilInternal() {
       if (name === "vis") return new Inspector(visRef.current);
       if (name === "div_controles") return new Inspector(div_controlesRef.current);
       if (name === "style") return new Inspector(styleRef.current);
+      if (name === "helpButton") return new Inspector(helpButtonRef.current);
       return ["menu_municipios","barra_municipios","gPESO","funcoesGeradoras","gROBSON","gTOTAL","checkFiltros","onfirstload","getCurrentConf","cabecalho","setOnPageUnload"].includes(name);
     });
     mainNotebook = main;
@@ -448,8 +456,8 @@ function MortalidadeInfantilInternal() {
   return (
     <div className="ferramenta">
       <div className="trilhas">
-        <MenuFerramenta />
-        <div className="mainWindow">
+        <MenuFerramenta helpButton={<span ref={helpButtonRef} style={{whiteSpace:"normal"}}></span>} />
+        <div className="mainWindow" style={{position:"relative",boxSizing:"content-box",whiteSpace:"normal"}}>
           <div className="blocoLocal" ref={div_controlesRef} />
           <div className="blocoMenu" ref={mpRef} />
           <div className="blocoTrilha saveImg" ref={visRef} />
@@ -460,7 +468,7 @@ function MortalidadeInfantilInternal() {
   );
 }
 
-function MenuFerramenta() {
+function MenuFerramenta({helpButton}) {
 
   const router = useRouter();
 
@@ -538,6 +546,8 @@ function MenuFerramenta() {
         {(router.query.locale == "pt" ? "Explore os dados" : "Explore Data")}
       </div>
     
+      {helpButton}
+
     <div className='spacer'/>
     
     <div className='top-buttons'>
