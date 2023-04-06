@@ -120,6 +120,18 @@ const style = `
     background-color: #fff;
   }
 
+  .helpBox {
+    box-sizing: border-box;
+    border: 1px solid rgba(0,0,0,0.4);
+    border-radius: 4px;	
+    box-shadow: 0px 0px 6px 0px #868789;
+    background: rgba(240,240,240,0.9);
+    padding: 5px;
+    font-family: Roboto condensed, Helvetica, sans-serif, Arial;
+    font-size: 10px;
+    user-select: none;
+  }
+
 `;
 
 let mainNotebook = null;
@@ -372,10 +384,10 @@ function NascidosVivosInternal() {
     <div className="ferramenta">
       <div className="trilhas">
         <MenuFerramenta helpButton={<span ref={helpButtonRef} style={{whiteSpace:"normal"}}></span>} />
-        <div className="mainWindow" style={{position:"relative",boxSizing:"content-box",whiteSpace:"normal"}}>
+        <div className="mainWindow">
           <div className="blocoLocal" ref={div_controlesRef} />
           <div className="blocoMenu" ref={mpRef} />
-          <div className="blocoTrilha saveImg" ref={visRef} />
+          <div className="blocoTrilha saveImg" ref={visRef} style={{position:"relative",boxSizing:"content-box",whiteSpace:"normal"}}/>
           <div ref={styleRef} />
         </div>
       </div>
@@ -415,10 +427,10 @@ function CaracteristicasNascimentoInternal() {
     <div className="ferramenta">
       <div className="trilhas">
         <MenuFerramenta helpButton={<span ref={helpButtonRef} style={{whiteSpace:"normal"}}></span>} />
-        <div className="mainWindow" style={{position:"relative",boxSizing:"content-box",whiteSpace:"normal"}}>
+        <div className="mainWindow">
           <div className="blocoLocal" ref={div_controlesRef} />
           <div className="blocoMenu" ref={mpRef} />
-          <div className="blocoTrilha saveImg" ref={visRef} />
+          <div className="blocoTrilha saveImg" ref={visRef} style={{position:"relative",boxSizing:"content-box",whiteSpace:"normal"}}/>
           <div ref={styleRef} />
         </div>
       </div>
@@ -435,7 +447,7 @@ function MortalidadeInfantilInternal() {
   const mpRef = useRef();
   const div_controlesRef = useRef();
   const styleRef = useRef();
-  const helpButton = useRef();
+  const helpButtonRef = useRef();
   const router = useRouter();  
 
   useEffect(() => {
@@ -457,10 +469,10 @@ function MortalidadeInfantilInternal() {
     <div className="ferramenta">
       <div className="trilhas">
         <MenuFerramenta helpButton={<span ref={helpButtonRef} style={{whiteSpace:"normal"}}></span>} />
-        <div className="mainWindow" style={{position:"relative",boxSizing:"content-box",whiteSpace:"normal"}}>
+        <div className="mainWindow">
           <div className="blocoLocal" ref={div_controlesRef} />
           <div className="blocoMenu" ref={mpRef} />
-          <div className="blocoTrilha saveImg" ref={visRef} />
+          <div className="blocoTrilha saveImg" ref={visRef} style={{position:"relative",boxSizing:"content-box",whiteSpace:"normal"}}/>
           <div ref={styleRef} />
         </div>
       </div>
